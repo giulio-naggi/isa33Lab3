@@ -1,0 +1,58 @@
+ 
+****************************************
+Report : resources
+Design : RV32I
+Version: O-2018.06-SP4
+Date   : Fri Feb 19 17:56:34 2021
+****************************************
+
+
+Resource Report for this hierarchy in file ../src/DATAPATH.vhd
+=============================================================================
+| Cell           | Module         | Parameters | Contained Operations       |
+=============================================================================
+| add_x_49       | DW01_add       | width=32   | dp/pc_adder/add_14 (ADDER_PC.vhd:14) |
+| eq_x_50        | DW_cmp         | width=5    | dp/hz_unit/eq_24_2 (HAZARD_UNIT.vhd:24) |
+| eq_x_51        | DW_cmp         | width=5    | dp/hz_unit/eq_24_3 (HAZARD_UNIT.vhd:24) |
+| add_x_52       | DW01_add       | width=32   | dp/branch_adder_inst/add_13 (BRANCH_ADDER.vhd:13) |
+| eq_x_53        | DW_cmp         | width=32   | dp/branch_comp_inst/eq_15 (BRANCH_COMP.vhd:15) |
+| eq_x_58        | DW_cmp         | width=5    | dp/forwarding_unit_component/eq_36 (FORWARDING_UNIT.vhd:36) |
+| eq_x_59        | DW_cmp         | width=5    | dp/forwarding_unit_component/eq_42 (FORWARDING_UNIT.vhd:42) |
+| eq_x_60        | DW_cmp         | width=5    | dp/forwarding_unit_component/eq_54 (FORWARDING_UNIT.vhd:54) |
+| eq_x_61        | DW_cmp         | width=5    | dp/forwarding_unit_component/eq_60 (FORWARDING_UNIT.vhd:60) |
+| eq_x_62        | DW_cmp         | width=5    | dp/forwarding_unit_component/eq_72 (FORWARDING_UNIT.vhd:72) |
+| eq_x_63        | DW_cmp         | width=5    | dp/forwarding_unit_component/eq_84 (FORWARDING_UNIT.vhd:84) |
+| eq_x_64        | DW_cmp         | width=5    | dp/forwarding_unit_component/eq_90 (FORWARDING_UNIT.vhd:90) |
+| add_x_65       | DW01_add       | width=32   | dp/alu_component/add_21 (ALU.vhd:21) |
+| lt_x_66        | DW_cmp         | width=32   | dp/alu_component/lt_34 (ALU.vhd:34) |
+| eq_x_159       | DW_cmp         | width=5    | dp/eq_266 (DATAPATH.vhd:266) |
+               |                |            | dp/forwarding_unit_component/eq_102 (FORWARDING_UNIT.vhd:102) |
+| eq_x_160       | DW_cmp         | width=5    | dp/eq_271 (DATAPATH.vhd:271) |
+               |                |            | dp/forwarding_unit_component/eq_108 (FORWARDING_UNIT.vhd:108) |
+=============================================================================
+
+
+Implementation Report
+===============================================================================
+|                    |                  | Current            | Set            |
+| Cell               | Module           | Implementation     | Implementation |
+===============================================================================
+| add_x_49           | DW01_add         | apparch (area)     |                |
+| eq_x_50            | DW_cmp           | apparch (area)     |                |
+| eq_x_51            | DW_cmp           | apparch (area)     |                |
+| add_x_52           | DW01_add         | pparch (area,speed)                 |
+| eq_x_53            | DW_cmp           | apparch (area)     |                |
+| eq_x_58            | DW_cmp           | apparch (area)     |                |
+| eq_x_59            | DW_cmp           | apparch (area)     |                |
+| eq_x_60            | DW_cmp           | apparch (area)     |                |
+| eq_x_61            | DW_cmp           | apparch (area)     |                |
+| eq_x_62            | DW_cmp           | apparch (area)     |                |
+| eq_x_63            | DW_cmp           | apparch (area)     |                |
+| eq_x_64            | DW_cmp           | apparch (area)     |                |
+| add_x_65           | DW01_add         | pparch (area,speed)                 |
+| lt_x_66            | DW_cmp           | apparch (area)     |                |
+| eq_x_159           | DW_cmp           | apparch (area)     |                |
+| eq_x_160           | DW_cmp           | apparch (area)     |                |
+===============================================================================
+
+1

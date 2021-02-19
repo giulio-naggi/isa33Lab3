@@ -1,0 +1,136 @@
+/home/isa33/Lab3/src/DATAPATH.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa33/Lab3/src/DATAPATH.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Loading package risc
+-- Compiling entity datapath
+-- Compiling architecture mixed of datapath
+
+} {} {}} /home/isa33/Lab3/src/IRAM.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa33/Lab3/src/IRAM.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package textio
+-- Loading package std_logic_textio
+-- Loading package numeric_std
+-- Compiling entity iram
+-- Compiling architecture behavioral of iram
+
+} {} {}} /home/isa33/Lab3/src/RISC.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa33/Lab3/src/RISC.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Compiling package risc
+
+} {} {}} /home/isa33/Lab3/src/ADDER_PC.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa33/Lab3/src/ADDER_PC.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Compiling entity adder_pc
+-- Compiling architecture beh of adder_pc
+
+} {} {}} /home/isa33/Lab3/src/ALU.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa33/Lab3/src/ALU.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Compiling entity alu
+-- Compiling architecture behavioral of alu
+
+} {} {}} /home/isa33/Lab3/src/FORWARDING_UNIT.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa33/Lab3/src/FORWARDING_UNIT.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Compiling entity forwarding_unit
+-- Compiling architecture behavioral of forwarding_unit
+
+} {} {}} /home/isa33/Lab3/src/DRAM.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa33/Lab3/src/DRAM.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Compiling entity dram
+-- Compiling architecture behavioral of dram
+
+} {} {}} /home/isa33/Lab3/src/FF.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa33/Lab3/src/FF.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Compiling entity ff
+-- Compiling architecture behavioral of ff
+
+} {} {}} /home/isa33/Lab3/src/REGISTER.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa33/Lab3/src/REGISTER.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Compiling entity reg
+-- Compiling architecture behavioral of reg
+
+} {} {}} /home/isa33/Lab3/src/BRANCH_ADDER.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa33/Lab3/src/BRANCH_ADDER.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Compiling entity branch_adder
+-- Compiling architecture behavioral of branch_adder
+
+} {} {}} /home/isa33/Lab3/src/RV32I.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa33/Lab3/src/RV32I.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Loading package risc
+-- Compiling entity rv32i
+-- Compiling architecture structural of rv32i
+
+} {} {}} /home/isa33/Lab3/src/CU.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa33/Lab3/src/CU.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Loading package risc
+-- Compiling entity cu
+-- Compiling architecture hardwired of cu
+
+} {} {}} /home/isa33/Lab3/src/HAZARD_UNIT.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa33/Lab3/src/HAZARD_UNIT.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Loading package risc
+-- Compiling entity hazard_unit
+-- Compiling architecture behavioral of hazard_unit
+
+} {} {}} /home/isa33/Lab3/src/DECODING_UNIT.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa33/Lab3/src/DECODING_UNIT.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Loading package risc
+-- Compiling entity decoding_unit
+-- Compiling architecture beh of decoding_unit
+
+} {} {}} /home/isa33/Lab3/src/BRANCH_COMP.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa33/Lab3/src/BRANCH_COMP.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Compiling entity branch_comp
+-- Compiling architecture behavioral of branch_comp
+
+} {} {}} /home/isa33/Lab3/src/TB_RISCV.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa33/Lab3/src/TB_RISCV.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Loading package risc
+-- Compiling entity tb
+-- Compiling architecture test of tb
+
+} {} {}}
